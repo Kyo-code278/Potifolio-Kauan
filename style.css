@@ -323,10 +323,16 @@ hr {
     opacity: 1;
   }
 }
-
+.projetos-img {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 350px;
+  width: 100%;
+}
 .projeto img {
   width: 100%;
-  max-width: 450px;
+  max-width: 350px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
